@@ -1,23 +1,15 @@
 <?php
-$nama = "NUR SHAFIKA ILYANA";
-$nomatrik = "18DIT24F1002";
-$kelas = "DIT4A/SWG1";
+include 'biodata.php';
 ?>
-
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title›Biodata Pelajar</title>
+    <meta charset="UTF-8">
+    <title>Halaman Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>Biodata Saya</h1>
-
-<p><b>Nama: </b><?= $nama ?></p> 
-<p><b>No Matrik: </b><?= $nomatrik ?></p>
-<p><b>Kelas: </b><?= $kelas ?></p>
-
-<img src="shafika.jpg" style="width:200px; height:200px; border-radius:50%; object-fit:cover;">
-
+    <h1>Selamat Datang ke Laman Saya</h1>
+    <p>Ini contoh laman web sederhana menggunakan PHP.`</p>
 </body>
 </html>
