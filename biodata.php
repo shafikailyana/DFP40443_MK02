@@ -1,4 +1,4 @@
 <?php
-echo "<p>Nama: Nur Shafika Ilyana</p>";
-echo "<p>Umur: 20</p>";
-echo "<p>Course: Teknologi Maklumat</p>";
+$nama = "Nur Shafika Ilyana";
+$kelas = "DIT4A/SW4G1";
+$NoPendaftaran = "18DIT24F1002";
